@@ -1,0 +1,22 @@
+.NavItem{
+    background-color: deepskyblue;
+    display: inline-block;
+    width: 20%;
+}
+
+.NavForm{
+    display:inline;
+}
+
+button{
+    background-color: aqua;
+    border:none;
+}
+nav{
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0%;
+}
+input{
+    border:none;
+}
