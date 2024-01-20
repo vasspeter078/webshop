@@ -1,6 +1,7 @@
 .NavItem{
     background-color: deepskyblue;
-    display: inline-block;
+    /*display: inline-block;*/
+    font-size: 18px;
     width: 20%;
 }
 
@@ -11,11 +12,20 @@
 button{
     background-color: aqua;
     border:none;
+    padding: 4px;
 }
 nav{
-    background-color: cornflowerblue;
+    background-color: rgb(44, 74, 135);
     position: sticky;
+    top: 0;
+    z-index: 2;
+    /*
+    position: fixed;
     top: 0%;
+    */
+    display: flex;
+    width: 100%;
+    
 }
 input{
     border:none;

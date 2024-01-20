@@ -20,6 +20,7 @@ function PurchaseProduct(props) {
         if (index != -1) {
             cart.splice(index, 1);
         }
+        props.setUpdateState(true);
     }
     return (
         <div>

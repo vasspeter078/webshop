@@ -9,7 +9,10 @@ function Home() {
         <>
             <Header/>
             <Nav/>
-            <img src={home}/>
+            <div class="container">
+                <h1 id="slogan"><b>Best phones ever</b></h1>
+                <img src={home} id="homeImage"/>
+            </div>
             <Footer/>
         </>
     );
