@@ -2,3 +2,9 @@
     height:200px;
     font-size: large;
 }
+.product-container {
+    display:grid;
+    gap:12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 32px;
+}
