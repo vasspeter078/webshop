@@ -22,7 +22,7 @@ function Cart() {
         },
         [updateState]
     );
-    if (cart.length == 0) {
+    if (cart.length === 0) {
         return (
             <>
                 <Header/>
